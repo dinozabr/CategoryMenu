@@ -1,0 +1,29 @@
+{ "category":
+  { "items":
+    [
+      {
+        "id": 1,
+        "name": "users",
+        "alias": "/users",
+        "children": ["create", "delete", "list"]
+      },
+      {
+        "id": 2,
+        "name": "requests",
+        "alias": "/requests",
+        "children": ["connecting"]
+      },
+      {
+        "id": 3,
+        "name": "list",
+        "alias": "/users/list",
+        "children": ["active", "deleted"]
+      },
+      {
+        "id": 4,
+        "name": "search",
+        "alias": "/users/search"
+      }
+    ]
+  }
+}

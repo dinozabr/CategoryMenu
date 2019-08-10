@@ -1,0 +1,53 @@
+{ "categories":
+    [
+      {
+        "id": 1,
+        "name": "Пользователи",
+        "alias": "/users",
+        "children": ["create", "delete", "list"]
+      },
+      {
+        "id": 2,
+        "name": "Заявки",
+        "alias": "/requests",
+        "children": ["connecting"]
+      },
+      {
+        "id": 3,
+        "name": "Список",
+        "alias": "/users/list",
+        "children": ["active", "deleted"]
+      },
+      {
+        "id": 4,
+        "name": "Поиск",
+        "alias": "/users/search",
+        "children": []
+      },
+      {
+        "id": 5,
+        "name": "Заявки на подключение",
+        "alias": "/requests/connecting",
+        "children": []
+      },
+      {
+        "id": 6,
+        "name": "Активные",
+        "alias": "/users/list/active",
+        "children": []
+      },
+      {
+        "id": 7,
+        "name": "Удалённые",
+        "alias": "/users/list/deleted",
+        "children": []
+      },
+      {
+        "id": 8,
+        "name": "Создание",
+        "alias": "/users/create",
+        "children": []
+      }
+
+    ]
+}
